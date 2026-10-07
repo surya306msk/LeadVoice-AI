@@ -1,0 +1,18 @@
+# Docker Ignore Rules
+.env
+.env*.local
+.venv
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.git/
+.gitignore
+*.db
+*.sqlite3
+IMPLEMENTATION_REPORT.md
+*IMPLEMENTATION_REPORT*.md
+docs/
+scratch/

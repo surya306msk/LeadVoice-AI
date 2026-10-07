@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment/Secrets
+.env
+.env*.local
+*.key
+*.pem
+
+# Caches & Logs
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDEs & System
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
