@@ -1,8 +1,4 @@
-"""
-LeadVoice AI — Phase 7 HOT Lead Demo Script
-Demonstrates a complete HOT lead voice conversation, progressive lead intelligence extraction,
-HOT classification, decision-maker verification, and safe mock messaging action trigger.
-"""
+"""HOT lead demo: e-commerce inquiry → budget/timeline → HOT classification → mock alert."""
 
 import asyncio
 import sys

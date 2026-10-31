@@ -41,7 +41,6 @@ class LeadResponse(LeadBase):
         from_attributes = True
 
 
-# Phase 2 Schemas
 from typing import Literal
 
 class LeadAnalysis(BaseModel):
@@ -71,7 +70,6 @@ class AnalyzeLeadResponse(BaseModel):
     source: str  # 'mock' or 'groq'
 
 
-# Phase 3 Schemas
 class CallbackParseRequest(BaseModel):
     callback_expression: str
     reference_time: Optional[datetime] = None
@@ -104,7 +102,6 @@ class CallbackResponse(BaseModel):
         from_attributes = True
 
 
-# Phase 4 Schemas
 class MessagingTestRequest(BaseModel):
     provider: Optional[str] = None
     recipient: Optional[str] = None
@@ -140,7 +137,6 @@ class WhatsAppFollowupRequest(BaseModel):
     provider: Optional[str] = None
 
 
-# Phase 5 Schemas
 from typing import Dict, Any
 
 class StartMockCallRequest(BaseModel):

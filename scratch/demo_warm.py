@@ -1,8 +1,4 @@
-"""
-LeadVoice AI — Phase 7 WARM Lead Demo Script
-Demonstrates a WARM lead voice conversation with barrier detection, natural language callback
-expression parsing ("Call me tomorrow morning"), callback scheduling via APScheduler, and barrier storage.
-"""
+"""WARM lead demo: barrier detection, callback expression parsing, and callback scheduling."""
 
 import asyncio
 import sys

@@ -8,11 +8,7 @@ from app.core.config import settings
 logger = logging.getLogger("leadvoice.services.conversation_engine")
 
 class ConversationEngine:
-    """
-    Natural Sales Consultant Engine.
-    Identifies missing discovery information, detects/preserves user language (English, Hindi/Hinglish, Telugu/Teluglish),
-    and generates natural consultant responses asking 1-2 relevant questions at a time.
-    """
+    """Generates language-aware consultative agent responses based on extracted lead data."""
 
     def __init__(self):
         self.llm_service = LLMService()

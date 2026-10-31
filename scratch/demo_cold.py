@@ -1,8 +1,4 @@
-"""
-LeadVoice AI — Phase 7 COLD Lead Demo Script
-Demonstrates a COLD lead voice conversation with low buying intent, verified information extraction
-(no unsupported facts invented), COLD classification, basic follow-up recommendation, and no HOT action trigger.
-"""
+"""COLD lead demo: low-intent conversation, COLD classification, no HOT action triggered."""
 
 import asyncio
 import sys

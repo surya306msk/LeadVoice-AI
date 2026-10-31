@@ -10,9 +10,9 @@
 
 | Item | Description | Status | Location / Artifact |
 | :--- | :--- | :--- | :--- |
-| **GitHub Repository** | Source code repository ready for push | **AVAILABLE NOW (Local Git)** / **TBD (Remote URL)** | Local git repository initialized; remote push pending user configuration |
+| **GitHub Repository** | Source code repository | **AVAILABLE NOW** | https://github.com/surya306msk/LeadVoice-AI |
 | **Deployment URL** | Live container deployment endpoint | **TBD** | `http://<deployed-host>:8000` (Local deployment prepared; remote URL TBD) |
-| **Architecture Diagram** | System architecture specification with Mermaid diagrams | **AVAILABLE NOW** | [`docs/architecture.md`](file:///e:/PROJECTS/LeadVoice%20AI/docs/architecture.md) |
+| **Architecture Diagram** | System architecture specification & image | **AVAILABLE NOW** | [`docs/architecture.md`](file:///e:/PROJECTS/LeadVoice%20AI/docs/architecture.md) & [`docs/leadvoice_architecture.png`](file:///e:/PROJECTS/LeadVoice%20AI/docs/leadvoice_architecture.png) |
 | **Resume** | Candidate resume document | **TBD** | Candidate to attach resume file upon final submission |
 | **Candidate Mobile Number** | Primary candidate contact number | **AVAILABLE NOW** | `9353352276` |
 | **Assignment Notes** | Implementation summary under 200 words | **AVAILABLE NOW** | [`docs/assignment_notes.md`](file:///e:/PROJECTS/LeadVoice%20AI/docs/assignment_notes.md) |
@@ -26,9 +26,9 @@
 ## Detailed Item Breakdown
 
 ### 1. GitHub Repository
-- **Status**: AVAILABLE NOW (Local Git initialized & verified)
-- **Local Status**: All source code, tests, docs, and configurations are tracked in git. Secrets (`.env`, `*.db`, `.venv/`) are excluded via `.gitignore`.
-- **Remote Push**: Ready for candidate to add remote origin (`git remote add origin <url>`) and push (`git push -u origin main`).
+- **Status**: AVAILABLE NOW (Prepared for repository push)
+- **Repository URL**: https://github.com/surya306msk/LeadVoice-AI
+- **Commit Status**: Main branch prepared with complete project files. Secrets (`.env`, `*.db`, `.venv/`) strictly excluded via `.gitignore`.
 
 ### 2. Deployment URL
 - **Status**: TBD
@@ -36,7 +36,7 @@
 
 ### 3. Architecture Diagram
 - **Status**: AVAILABLE NOW
-- **State**: Complete component, sequence, ERD, and deployment diagrams formatted in GitHub Flavored Markdown / Mermaid in [`docs/architecture.md`](file:///e:/PROJECTS/LeadVoice%20AI/docs/architecture.md).
+- **State**: Architectural visual image [`docs/leadvoice_architecture.png`](file:///e:/PROJECTS/LeadVoice%20AI/docs/leadvoice_architecture.png) and complete component, sequence, ERD, and deployment Mermaid diagrams in [`docs/architecture.md`](file:///e:/PROJECTS/LeadVoice%20AI/docs/architecture.md).
 
 ### 4. Candidate Mobile Number & Identity
 - **Status**: AVAILABLE NOW

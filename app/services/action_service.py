@@ -18,16 +18,8 @@ from app.core.config import settings
 logger = logging.getLogger("leadvoice.services.action_service")
 
 class ActionService:
-    """
-    Action Engine service responsible for:
-    - Receiving lead analysis
-    - Classifying HOT / WARM / COLD
-    - Triggering provider messaging (Telegram / WhatsApp / Mock)
-    - Handling idempotency for duplicate HOT lead alerts
-    - Managing scheduled callbacks for WARM leads
-    - Sending optional resume/architecture attachments
-    - Recording database events
-    """
+    """Processes lead actions: resolves classification, sends messages via the
+    configured provider, manages callback scheduling, and records DB events."""
 
     def __init__(self):
         self.message_builder = MessageBuilderService()

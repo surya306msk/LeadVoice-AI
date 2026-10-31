@@ -447,8 +447,8 @@ Result summary:
 - **README & Architecture Finalization**: Updated `README.md` with explicit `## Deployment` section (`Deployment URL: TBD`) and updated `docs/architecture.md` showing WhatsApp production and Telegram dev messaging providers.
 
 ### 2. Files Created & Modified in Phase 8
-- Created: `docs/deployment.md`, `docs/submission_checklist.md`, `scratch/api_smoke_test.py`
-- Modified: `README.md`, `.gitignore`, `IMPLEMENTATION_REPORT.md`
+- Created: `docs/deployment.md`, `docs/submission_checklist.md`, `scratch/api_smoke_test.py`, `docs/leadvoice_architecture.png`
+- Modified: `Dockerfile`, `README.md`, `.gitignore`, `IMPLEMENTATION_REPORT.md`
 
 ### 3. Verification & Final Test Results
 Command executed:

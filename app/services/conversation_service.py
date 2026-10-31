@@ -15,11 +15,8 @@ from app.services.callback_parser_service import CallbackParserService
 logger = logging.getLogger("leadvoice.services.conversation_service")
 
 class ConversationService:
-    """
-    Stateful Conversation & Session Service.
-    Persists call records, transcript lines, progressively updates LeadAnalysis,
-    triggers real-time Phase 4 Action Engine when lead becomes HOT, and manages callbacks.
-    """
+    """Stateful conversation service: persists transcripts, runs progressive lead analysis,
+    triggers real-time actions for HOT leads, and schedules callbacks for WARM leads."""
 
     def __init__(self):
         self.llm_service = LLMService()
@@ -196,7 +193,7 @@ class ConversationService:
             db.add(tx_agent)
             db.commit()
 
-            # 6. Trigger Real-Time Phase 4 Action if HOT
+            # Trigger real-time action for HOT leads
             action_result = None
             if analysis.lead_status == "HOT" and lead:
                 action_result = await self.action_service.process_lead_action(
