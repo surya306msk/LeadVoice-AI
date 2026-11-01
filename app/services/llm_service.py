@@ -266,7 +266,7 @@ class LLMService:
             if m:
                 timeline_str = f"{m.group(1)} days"
 
-            if not timeline_str:
+            elif not timeline_str:
                 m = re.search(r"(\d+)\s*(?:weeks?|hafte?|hafton?)\b", lc)
                 if m:
                     n = int(m.group(1))
